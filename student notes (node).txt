@@ -1,0 +1,17 @@
+-> check node and npm version
+-> then write npm install --global expo-cli
+-> check expo version
+-> download zip
+-> open in vsc
+-> change path in cmd, go to our file (weather app where we have all the files)
+-> then type npm install (it will install everthing that is needed in package.json)
+-> a node moudules folder will come up in vsc 
+-> then do expo start(it will run the code) 
+-> if they want to scan qr code, the wifi should be same on both of them
+-> click on tunnel and production mode if you want to use diffrent networks
+-> it may give building javascript error 
+-> to fix it stop the execution with ctrl + c
+-> then write npm install <whatever file name is giving error>
+    for eg: npm install firebase --force
+-> might get multiple errors like this
+-> in the end the code should start working on the phone
