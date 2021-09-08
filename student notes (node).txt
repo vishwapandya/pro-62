@@ -1,17 +1,14 @@
--> check node and npm version
--> then write npm install --global expo-cli
--> check expo version
--> download zip
--> open in vsc
--> change path in cmd, go to our file (weather app where we have all the files)
--> then type npm install (it will install everthing that is needed in package.json)
--> a node moudules folder will come up in vsc 
--> then do expo start(it will run the code) 
--> if they want to scan qr code, the wifi should be same on both of them
--> click on tunnel and production mode if you want to use diffrent networks
--> it may give building javascript error 
--> to fix it stop the execution with ctrl + c
--> then write npm install <whatever file name is giving error>
-    for eg: npm install firebase --force
--> might get multiple errors like this
--> in the end the code should start working on the phone
+1. download zip file of weather app
+2. unzip and take it on desktop.
+3.nw in cmd, type cd Desktop
+4.cd name of file u kept for file u downloaded
+5.nw keep this file open in vsc ready.
+6.nw cmd, type npm install
+9.then go to vsc in app.json > "android"{
+"package": "com.testuser.weatherapp"} and delte other android.
+10.cmd expo build:android
+16.username and password.
+17. apk
+18.generate keystore
+then link will come type link in new tab.
+19. upload ,link on github and submit.
